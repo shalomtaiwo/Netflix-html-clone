@@ -1,0 +1,183 @@
+/* Fonts */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+}
+body{
+    font-family: "Open-Sans", sans-serif;
+
+}
+.card-title{
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+}
+.card-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.email-form-title{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+}
+
+
+
+/* Banner elements */
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 60%;
+    top: 0;
+    z-index: -1;
+}
+#masthead{
+    background-image: url(../assets/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    max-width: 100%;
+    border-bottom: 10px solid #222222;
+    position: relative;
+    z-index: 1;
+}
+.navbar{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 45px;
+    padding-top: 45px;
+}
+.navbar > img {
+    height: 32px;
+}
+.navbar > a{
+    padding: 7px 17px;
+    color: white;
+    background-color: #e50914;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 45px);
+    text-align: center;
+}
+
+.signup-form{
+    height: 60px;
+    display: flex;
+}
+.signup-form > input{
+    height: 100%;
+    width: 450px;
+    padding-left: 10px;
+}
+.signup-form > button{
+    height: 100%;
+    background-color: red;
+    color: white;
+    font-size: 1.65rem;
+    border: none;
+    padding: 0 26px;
+    border-left: 1px solid #333;
+}
+/* Info elements */
+main{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 10px solid #222222;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.watch{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch > video{
+    position: absolute;
+}
+.watch > img{
+    z-index: 1;
+}
+
+/* Footer Elements */
+.footer-items{
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+.footer-top{
+    margin-bottom: 30px;
+}
+.footer-links > li {
+    font-size: 13px;
+    line-height: 2.25;
+}
+footer{
+    background-color: black;
+}
+footer ul li,.footer-title {
+    color: #757575;
+}
+footer ul li:hover,.footer-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-links{
+    list-style-type: none;
+    columns: 4;
+    padding: 0;
+}
+.language{
+    height: 53px;
+    width: 142px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #999999;
+    padding: 0 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.language > select {
+    border: none;
+    appearance: none;
+    color: #999999;
+    width: 100%;
+    padding: 10px;
+    background: url(https://uploads.codesandbox.io/uploads/user/8036c587-6c4e-41c7-9908-1ccb30624c29/Pgk8-carot.png) no-repeat,black;
+    background-position: right;
+}
+
+.country{
+    font-size: 13px;
+    margin-top: 24px;
+    color: #757575;
+}

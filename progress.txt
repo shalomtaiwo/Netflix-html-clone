@@ -1,0 +1,19 @@
+STEP 1: what I learned so far?
+
+I learned how to create divs (div.class)
+How to move a code t another line.
+How to create multiple single elements with the "ALT" button 
+learned to apply HTML comments the easy way. (ctrl /) :D 
+
+What I love so Far? I love that we're using VSCODE. I always thought
+it was complicated so I used Webstorm instead.
+But I am absolutely loving this, only becuase the instructor makes it fun!
+This would be my go to IDE from now on!
+The lessons are really understandable! I have tweo different HTML/CSS 
+certficates and just this basic made me feel as though this is the first
+time I'm learning HTML.
+
+First time knowing host fonts are imported. I never checked lol. Now I'll be
+happy to import as many as I want to.
+
+
